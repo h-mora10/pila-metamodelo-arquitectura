@@ -163,6 +163,4 @@
   <eClassifiers xsi:type="ecore:EClass" name="FunctionBody">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="content" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EDataType" name="String" instanceTypeName="newString"/>
-  <eClassifiers xsi:type="ecore:EEnum" name="DataType"/>
 </ecore:EPackage>
