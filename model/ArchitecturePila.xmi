@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ASCII"?>
+<metamodeloArquitecturaPila:Architecture xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:metamodeloArquitecturaPila="http://www.example.org/metamodeloArquitecturaPila">
+  <businessModel>
+    <entities name="OperadorServicio">
+      <attributes name="nombre"/>
+      <childrenEntities name="Aportante">
+        <attributes name="nombre"/>
+        <attributes name="tipoPagador"/>
+        <childrenEntities name="Pensionado">
+          <attributes name="nombre"/>
+          <attributes name="edad"/>
+          <attributes name="salario"/>
+          <attributes name="tipoPensionado"/>
+          <attributes name="tipoPension"/>
+          <attributes name="esAltoRiesgo"/>
+          <attributes name="esCongresista"/>
+          <attributes name="esTrabajadorCTI"/>
+          <attributes name="esAviador"/>
+          <attributes name="residenciaEnExterior"/>
+          <attributes name="tieneGrupoFamiliarColombia"/>
+          <attributes name="codigoCIU"/>
+          <childrenEntities name="Novedad">
+            <attributes name="fechaInicio"/>
+            <attributes name="fechaFin"/>
+            <attributes name="duracion"/>
+            <attributes name="tipo"/>
+          </childrenEntities>
+        </childrenEntities>
+        <childrenEntities name="Pago">
+          <attributes name="beneficiario"/>
+          <attributes name="valorSalud"/>
+          <attributes name="valorPension"/>
+          <attributes name="valorRiesgos"/>
+          <attributes name="valorTotal"/>
+        </childrenEntities>
+      </childrenEntities>
+      <childrenEntities name="Servicio">
+        <attributes name="nombre"/>
+        <methods name="AportePensiones">
+          <body/>
+        </methods>
+        <methods name="AporteSeguridadSocialEnSalud">
+          <body/>
+        </methods>
+        <methods name="AporteRiesgosLaborales">
+          <body/>
+        </methods>
+      </childrenEntities>
+    </entities>
+  </businessModel>
+</metamodeloArquitecturaPila:Architecture>
