@@ -7,6 +7,8 @@
   <foreignModel>metamodeloArquitecturaPila.ecore</foreignModel>
   <genPackages prefix="MetamodeloArquitecturaPila" disposableProviderFactory="true"
       ecorePackage="metamodeloArquitecturaPila.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="metamodeloArquitecturaPila.ecore#//DataType.1"/>
+    <genDataTypes ecoreDataType="metamodeloArquitecturaPila.ecore#//String.1"/>
     <genClasses ecoreClass="metamodeloArquitecturaPila.ecore#//Architecture">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference metamodeloArquitecturaPila.ecore#//Architecture/views"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference metamodeloArquitecturaPila.ecore#//Architecture/businessModel"/>
