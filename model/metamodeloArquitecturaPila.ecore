@@ -130,6 +130,7 @@
   <eClassifiers xsi:type="ecore:EClass" name="BusinessLogic">
     <eStructuralFeatures xsi:type="ecore:EReference" name="functions" lowerBound="1"
         upperBound="-1" eType="#//Function" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ServiceType">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
